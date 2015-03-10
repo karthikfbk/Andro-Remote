@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:id="@+id/absolute">
+    <Button android:layout_width="80dip" android:text="LEFT" android:layout_height="60dip" android:layout_x="24dip" android:layout_y="134dip" android:id="@+id/left"></Button>
+    <Button android:layout_width="80dip" android:text="UP" android:layout_height="60dip" android:layout_x="106dip" android:layout_y="49dip" android:id="@+id/up"></Button>
+    <Button android:layout_width="80dip" android:text="RIGHT" android:layout_height="60dip" android:layout_x="189dip" android:layout_y="132dip" android:id="@+id/right"></Button>
+    <Button android:layout_width="80dip" android:text="DOWN" android:layout_height="60dip" android:layout_x="106dip" android:layout_y="217dip" android:id="@+id/down"></Button>
+    <Button android:layout_width="80dip" android:text="X" android:layout_height="60dip" android:layout_x="384dip" android:layout_y="133dip" android:id="@+id/xxx"></Button>
+    <FrameLayout android:layout_height="fill_parent" android:id="@+id/frameLayout1" android:layout_width="fill_parent" android:layout_x="0dip" android:layout_y="0dip">
+        <View android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="wrap_content"></View>
+    </FrameLayout>
+</AbsoluteLayout>

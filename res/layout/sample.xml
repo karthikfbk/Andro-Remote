@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="121dip" android:text="Button" android:layout_y="106dip"></Button>
+    <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Button" android:layout_x="120dip" android:layout_y="217dip"></Button>
+    <View android:layout_x="0dip" android:id="@+id/view1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="0dip"></View>
+</AbsoluteLayout>

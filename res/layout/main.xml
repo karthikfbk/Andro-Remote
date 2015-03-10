@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/connection_text" android:layout_x="113dip" android:layout_y="286dip" android:text="Click to connect"></TextView>
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_x="122dip" android:layout_height="wrap_content" android:layout_y="204dip" android:text="Connect"></Button>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="IP Address" android:layout_x="28dip" android:layout_y="132dip"></TextView>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="122dip"
+        android:layout_y="116dip"
+        android:text="192.168.16.2" >
+</EditText>
+</AbsoluteLayout>
